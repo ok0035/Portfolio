@@ -30,7 +30,6 @@ import SectionDownload from "./Sections/SectionDownload.js";
 import SectionProfile from "./Sections/SectionProfile.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
-
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {

@@ -7,6 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Camera from "@material-ui/icons/Camera";
 import Palette from "@material-ui/icons/Palette";
 import Favorite from "@material-ui/icons/Favorite";
+
 // core components
 // import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
@@ -19,21 +20,39 @@ import NavPills from "components/NavPills/NavPills.js";
 
 import profile from "assets/img/faces/profile.jpeg";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
+// import studio1 from "assets/img/examples/studio-1.jpg";
 // import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
+// import studio3 from "assets/img/examples/studio-3.jpg";
 // import studio4 from "assets/img/examples/studio-4.jpg";
 // import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
+// import work1 from "assets/img/examples/olu-eletu.jpg";
+// import work2 from "assets/img/examples/clem-onojeghuo.jpg";
 // import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
+// import work4 from "assets/img/examples/mariya-georgieva.jpg";
 // import work5 from "assets/img/examples/clem-onojegaw.jpg";
-import free1 from "assets/img/portfolio/appbook/free1.png";
-import free2 from "assets/img/portfolio/appbook/free2.png";
-import free3 from "assets/img/portfolio/appbook/free3.png";
-import free4 from "assets/img/portfolio/eneTextBook/free4.png";
-import free5 from "assets/img/portfolio/eneTextBook/free5.png";
+
+import recent1 from "assets/img/portfolio/nr5g/workNr1.jpeg";
+import recent2 from "assets/img/portfolio/nr5g/workNr2.png";
+import recent3 from "assets/img/portfolio/nr5g/workNr3.png";
+import recent4 from "assets/img/portfolio/pact/workPact1.png";
+import recent5 from "assets/img/portfolio/rusa/workRuSa.png";
+import recent6 from "assets/img/portfolio/pact/workPact2.png";
+
+import prev1 from "assets/img/portfolio/appbook/free1.png";
+import prev2 from "assets/img/portfolio/appbook/free2.png";
+import prev3 from "assets/img/portfolio/appbook/free3.png";
+import prev4 from "assets/img/portfolio/eneTextBook/free4.png";
+import prev5 from "assets/img/portfolio/eneTextBook/free5.png";
+import prev6 from "assets/img/portfolio/sizeax/workSizeax.png";
+
+// import toywork1 from "assets/img/portfolio/toy/toywork1.png";
+// import toywork2 from "assets/img/portfolio/toy/toywork2.png";
+import toywork3 from "assets/img/portfolio/toy/toywork3.png";
+import toywork4 from "assets/img/portfolio/toy/toywork4.png";
+// import toywork5 from "assets/img/portfolio/toy/toywork5.png";
+import toywork6 from "assets/img/portfolio/toy/toywork6.png";
+// import toywork7 from "assets/img/portfolio/toy/toywork7.png";
+import toywork8 from "assets/img/portfolio/toy/toywork8.png";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
@@ -77,20 +96,37 @@ export default function SectionProfile() {
                   </div>
                   <div className={classes.name}>
                     <h3 className={classes.title}>장영도</h3>
-                    <h6>DESIGNER</h6>
+                    <h6>APP DEVELOPER</h6>
                     <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-twitter"} />
+                      <i className={"fab fa-github"} />
                     </Button>
-                    <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-instagram"} />
+                    {/* <Button justIcon link className={classes.margin5}>
+                      <i className={"fab fa-"} />
                     </Button>
                     <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-facebook"} />
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </GridItem>
             </GridContainer>
+
+            <div className={classes.description}>
+              <p style={{ color: "black", fontSize: "16px" }}>
+                <b>Contact</b>
+                <div>
+                  Email : zerodeg93@gmail.com
+                  <br />
+                  Phone : 010-4337-6686
+                  <br />
+                  GitHub :{" "}
+                  <a href="https://github.com/ok0035">
+                    https://github.com/ok0035
+                  </a>
+                </div>{" "}
+              </p>
+            </div>
+
             <div className={classes.description}>
               <p style={{ color: "black", fontSize: "16px" }}>
                 <b>OS를 넘나드는 앱 개발자가 되고 싶은 사람</b> - 2017년 앱 개발
@@ -103,6 +139,7 @@ export default function SectionProfile() {
                 windows, linux에서 구동 가능한 앱을 개발하기도 했습니다.{" "}
               </p>
             </div>
+
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
@@ -117,29 +154,34 @@ export default function SectionProfile() {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={free1}
+                              src={recent1}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={free2}
+                              src={recent2}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={recent6}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={free3}
+                              src={recent3}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={free4}
+                              src={recent4}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={free5}
+                              src={recent5}
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -154,29 +196,34 @@ export default function SectionProfile() {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={free1}
+                              src={prev1}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={free2}
+                              src={prev2}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={prev3}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={free3}
+                              src={prev4}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={free4}
+                              src={prev5}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={free5}
+                              src={prev6}
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -191,29 +238,24 @@ export default function SectionProfile() {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work4}
+                              src={toywork3}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio3}
+                              src={toywork6}
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work2}
+                              src={toywork4}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={work1}
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src={studio1}
+                              src={toywork8}
                               className={navImageClasses}
                             />
                           </GridItem>

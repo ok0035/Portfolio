@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 import "assets/scss/material-kit-react.scss?v=1.10.0";
 
@@ -21,6 +26,7 @@ ReactDOM.render(
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/login-page" element={<LoginPage />} />
       <Route path="/" element={<Home />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   </Router>,
   document.getElementById("root")
