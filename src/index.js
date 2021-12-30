@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
 import {
   BrowserRouter as Router,
-  Navigate,
+  // Navigate,
   Route,
   Routes,
 } from "react-router-dom";
@@ -26,7 +26,7 @@ ReactDOM.render(
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/login-page" element={<LoginPage />} />
       <Route path="/" element={<Home />} />
-      <Route path="*" element={<Navigate to="/" />} />
+      <Route path="/Portfolio" element={<Home />} />
     </Routes>
   </Router>,
   document.getElementById("root")
