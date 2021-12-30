@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.js": "/Portfolio/static/js/main.2dc82e39.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.2dc82e39.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.de14bc5c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.de14bc5c.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.3f377f1c.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.3f377f1c.js.map",
-    "static/js/2.c5016f1e.chunk.js": "/Portfolio/static/js/2.c5016f1e.chunk.js",
-    "static/js/2.c5016f1e.chunk.js.map": "/Portfolio/static/js/2.c5016f1e.chunk.js.map",
+    "static/js/2.5a3002a0.chunk.js": "/Portfolio/static/js/2.5a3002a0.chunk.js",
+    "static/js/2.5a3002a0.chunk.js.map": "/Portfolio/static/js/2.5a3002a0.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/js/2.c5016f1e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c5016f1e.chunk.js.LICENSE.txt",
+    "static/js/2.5a3002a0.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5a3002a0.chunk.js.LICENSE.txt",
     "static/media/avatar.37d93aaa.jpg": "/Portfolio/static/media/avatar.37d93aaa.jpg",
-    "static/media/bg.527ceab2.jpg": "/Portfolio/static/media/bg.527ceab2.jpg",
-    "static/media/bg2.adb0a4f1.jpg": "/Portfolio/static/media/bg2.adb0a4f1.jpg",
-    "static/media/bg3.6584b707.jpg": "/Portfolio/static/media/bg3.6584b707.jpg",
     "static/media/bg7.jpg": "/Portfolio/static/media/bg7.32c7eec6.jpg",
     "static/media/christian.36a49d2f.jpg": "/Portfolio/static/media/christian.36a49d2f.jpg",
     "static/media/clem-onojegaw.8809fc53.jpg": "/Portfolio/static/media/clem-onojegaw.8809fc53.jpg",
@@ -24,12 +21,9 @@
     "static/media/free5.6789dea5.png": "/Portfolio/static/media/free5.6789dea5.png",
     "static/media/kendall.ab8e0d7e.jpg": "/Portfolio/static/media/kendall.ab8e0d7e.jpg",
     "static/media/landing-bg.jpg": "/Portfolio/static/media/landing-bg.64d7ac30.jpg",
-    "static/media/landing.833419cc.jpg": "/Portfolio/static/media/landing.833419cc.jpg",
     "static/media/mariya-georgieva.0817f394.jpg": "/Portfolio/static/media/mariya-georgieva.0817f394.jpg",
     "static/media/olu-eletu.429cd6ef.jpg": "/Portfolio/static/media/olu-eletu.429cd6ef.jpg",
-    "static/media/profile.298cea56.jpg": "/Portfolio/static/media/profile.298cea56.jpg",
     "static/media/profile.9525fd8f.jpeg": "/Portfolio/static/media/profile.9525fd8f.jpeg",
-    "static/media/sign.6177df0e.jpg": "/Portfolio/static/media/sign.6177df0e.jpg",
     "static/media/studio-1.56c6121d.jpg": "/Portfolio/static/media/studio-1.56c6121d.jpg",
     "static/media/studio-2.6fe3aba0.jpg": "/Portfolio/static/media/studio-2.6fe3aba0.jpg",
     "static/media/studio-3.cb63e16b.jpg": "/Portfolio/static/media/studio-3.cb63e16b.jpg",
@@ -49,7 +43,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3f377f1c.js",
-    "static/js/2.c5016f1e.chunk.js",
-    "static/js/main.2dc82e39.chunk.js"
+    "static/js/2.5a3002a0.chunk.js",
+    "static/js/main.de14bc5c.chunk.js"
   ]
 }
