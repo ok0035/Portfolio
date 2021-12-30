@@ -19,6 +19,20 @@ const profilePageStyle = {
     color: "#999",
     textAlign: "center !important",
   },
+
+  contactContainer: {
+    margin: "1.071rem auto 0",
+    maxWidth: "350px",
+    color: "#999",
+    textAlign: "center !important",
+  },
+
+  contact: {
+    maxWidth: "350px",
+    alignSelf: "center",
+    textAlign: "left !important",
+  },
+
   name: {
     marginTop: "-80px",
   },
@@ -29,6 +43,7 @@ const profilePageStyle = {
     zIndex: "3",
   },
   mainRaised: {
+    paddingRight: "35px",
     margin: "-60px 30px 0px",
     borderRadius: "6px",
     boxShadow:

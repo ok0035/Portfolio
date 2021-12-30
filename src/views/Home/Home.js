@@ -1,20 +1,20 @@
 import React from "react";
 // nodejs library that concatenates classes
-import classNames from "classnames";
 // react components for routing our app without refresh
-// import { Link } from "react-router-dom";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 // core components
 import Header from "components/Header/Header.js";
-// import Footer from "components/Footer/Footer.js";
+import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-// import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
 import HeaderLinks from "./Header/HeaderLinks";
+// import classNames from "classnames";
+// import { Link } from "react-router-dom";
+// import Button from "components/CustomButtons/Button.js";
 // import SectionBasics from "./Sections/SectionBasics.js";
 // import SectionNavbars from "./Sections/SectionNavbars.js";
 // import SectionTabs from "./Sections/SectionTabs.js";
@@ -64,8 +64,8 @@ export default function Components(props) {
       </Parallax>
 
       <SectionProfile />
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        {/* <SectionBasics />
+      {/* <div className={classNames(classes.main, classes.mainRaised)}>
+        <SectionBasics />
         <SectionNavbars />
         <SectionTabs />
         <SectionPills />
@@ -74,18 +74,18 @@ export default function Components(props) {
         <SectionJavascript />
         <SectionCarousel />
         <SectionCompletedExamples />
-        <SectionLogin /> */}
-        {/* <GridItem md={12} className={classes.textCenter}>
+        <SectionLogin />
+        <GridItem md={12} className={classes.textCenter}>
           <Link to={"/login-page"} className={classes.link}>
             <Button color="primary" size="lg" simple>
               View Login Page
             </Button>
           </Link>
-        </GridItem> */}
-        {/* <SectionExamples />
-        <SectionDownload /> */}
-      </div>
-      {/* <Footer /> */}
+        </GridItem>
+        <SectionExamples />
+        <SectionDownload />
+      </div> */}
+      {<Footer />}
     </div>
   );
 }

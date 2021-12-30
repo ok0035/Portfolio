@@ -96,9 +96,35 @@ export default function SectionProfile() {
                   </div>
                   <div className={classes.name}>
                     <h3 className={classes.title}>장영도</h3>
-                    <h6>APP DEVELOPER</h6>
+                    <h5>APP DEVELOPER</h5>
+
+                    <div className={classes.description}>
+                      <b>Contact</b>
+                    </div>
+                    <div className={classes.contactContainer}>
+                      <div className={classes.contact}>
+                        <p style={{ color: "black", fontSize: "16px" }}>
+                          <ul>
+                            <li>Email : zerodeg93@gmail.com</li>
+                            <li>Phone : 010-4337-6686</li>
+                            <li>
+                              GitHub :{" "}
+                              <a href="https://github.com/ok0035">
+                                https://github.com/ok0035
+                              </a>
+                            </li>
+                          </ul>{" "}
+                        </p>
+                      </div>
+                    </div>
+
                     <Button justIcon link className={classes.margin5}>
-                      <i className={"fab fa-github"} />
+                      <a
+                        style={{ color: "inherit", textDecoration: "none" }}
+                        href="https://github.com/ok0035"
+                      >
+                        <i className={"fab fa-github"} />
+                      </a>
                     </Button>
                     {/* <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-"} />
@@ -110,22 +136,6 @@ export default function SectionProfile() {
                 </div>
               </GridItem>
             </GridContainer>
-            <div className={classes.description}>
-              <b>Contact</b>
-            </div>
-            <div className={classes.description}>
-              <p style={{ color: "black", fontSize: "16px" }}>
-                Email : zerodeg93@gmail.com
-                <br />
-                Phone : 010-4337-6686
-                <br />
-                GitHub :{" "}
-                <a href="https://github.com/ok0035">
-                  https://github.com/ok0035
-                </a>
-                s{" "}
-              </p>
-            </div>
 
             <div className={classes.description}>
               <p style={{ color: "black", fontSize: "16px" }}>
@@ -140,8 +150,53 @@ export default function SectionProfile() {
               </p>
             </div>
 
+            <div className={classes.description}>
+              <b>자격증</b>
+            </div>
+            <div className={classes.contactContainer}>
+              <div className={classes.contact}>
+                <p style={{ color: "black", fontSize: "16px" }}>
+                  <ul>
+                    <li>정보처리기사</li>
+                    <li>리눅스 마스터 2급</li>
+                  </ul>{" "}
+                </p>
+              </div>
+            </div>
+
+            <div className={classes.description}>
+              <b>학적</b>
+            </div>
+            <div className={classes.contactContainer}>
+              <div className={classes.contact}>
+                <p style={{ color: "black", fontSize: "16px" }}>
+                  <ul>
+                    <li>용인대 컴퓨터과학과 졸업</li>
+                    <li>졸업 학점 : 4.08</li>
+                  </ul>{" "}
+                </p>
+              </div>
+            </div>
+
+            <div className={classes.description}>
+              <b>상벌사항</b>
+            </div>
+            <div className={classes.contactContainer}>
+              <div className={classes.contact}>
+                <p style={{ color: "black", fontSize: "16px" }}>
+                  <ul>
+                    <li>2013년 2학기 성적 우수 장학금(학년 1등) 수여</li>
+                    <li>2016년 2학기 성적 우수 장학금(학년 2등) 수여</li>
+                    <li>2017년 1학기 학과 수석 장학금(학과 1등) 수여</li>
+                  </ul>{" "}
+                </p>
+              </div>
+            </div>
+            <div className={classes.description}>
+              <b>MY PROJECTS</b>
+            </div>
             <GridContainer justify="center">
-              <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
+              <GridItem xs={12} sm={12} md={10} className={classes.navWrapper}>
                 <NavPills
                   alignCenter
                   color="primary"
