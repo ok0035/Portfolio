@@ -8,7 +8,7 @@ import {
   Routes,
 } from "react-router-dom";
 
-import "assets/scss/material-kit-react.scss?v=1.10.0";
+// import "assets/scss/material-kit-react.scss?v=1.10.0";
 
 // pages for this product
 import LandingPage from "views/LandingPage/LandingPage.js";

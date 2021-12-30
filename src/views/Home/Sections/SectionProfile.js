@@ -110,20 +110,20 @@ export default function SectionProfile() {
                 </div>
               </GridItem>
             </GridContainer>
-
+            <div className={classes.description}>
+              <b>Contact</b>
+            </div>
             <div className={classes.description}>
               <p style={{ color: "black", fontSize: "16px" }}>
-                <b>Contact</b>
-                <div>
-                  Email : zerodeg93@gmail.com
-                  <br />
-                  Phone : 010-4337-6686
-                  <br />
-                  GitHub :{" "}
-                  <a href="https://github.com/ok0035">
-                    https://github.com/ok0035
-                  </a>
-                </div>{" "}
+                Email : zerodeg93@gmail.com
+                <br />
+                Phone : 010-4337-6686
+                <br />
+                GitHub :{" "}
+                <a href="https://github.com/ok0035">
+                  https://github.com/ok0035
+                </a>
+                s{" "}
               </p>
             </div>
 
