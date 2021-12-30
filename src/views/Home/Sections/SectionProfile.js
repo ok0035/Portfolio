@@ -10,7 +10,7 @@ import Favorite from "@material-ui/icons/Favorite";
 
 // core components
 // import Header from "components/Header/Header.js";
-import Footer from "components/Footer/Footer.js";
+// import Footer from "components/Footer/Footer.js";
 import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -324,7 +324,6 @@ export default function SectionProfile() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
