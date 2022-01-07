@@ -6,13 +6,13 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 // core components
 import Header from "components/Header/Header.js";
-import Footer from "components/Footer/Footer.js";
+// import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
-import HeaderLinks from "./Header/HeaderLinks";
-// import classNames from "classnames";
+// import HeaderLinks from "./Header/HeaderLinks";
+import classNames from "classnames";
 // import { Link } from "react-router-dom";
 // import Button from "components/CustomButtons/Button.js";
 // import SectionBasics from "./Sections/SectionBasics.js";
@@ -39,7 +39,7 @@ export default function Components(props) {
     <div>
       <Header
         brand="PORTFOLIO"
-        rightLinks={<HeaderLinks />}
+        // rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
         changeColorOnScroll={{
@@ -54,9 +54,9 @@ export default function Components(props) {
             <GridItem>
               <div className={classes.brand}>
                 <h1 className={classes.title}>APP Developer</h1>
-                <h3 className={classes.subtitle}>
+                {/* <h3 className={classes.subtitle}>
                   OS를 넘나드는 앱 개발자가 되는 것이 저의 목표입니다.
-                </h3>
+                </h3> */}
               </div>
             </GridItem>
           </GridContainer>
@@ -64,8 +64,8 @@ export default function Components(props) {
       </Parallax>
 
       <SectionProfile />
-      {/* <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
+      <div className={classNames(classes.main, classes.mainRaised)}>
+        {/* <SectionBasics />
         <SectionNavbars />
         <SectionTabs />
         <SectionPills />
@@ -74,18 +74,18 @@ export default function Components(props) {
         <SectionJavascript />
         <SectionCarousel />
         <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
+        <SectionLogin /> */}
+        {/* <GridItem md={12} className={classes.textCenter}>
           <Link to={"/login-page"} className={classes.link}>
             <Button color="primary" size="lg" simple>
               View Login Page
             </Button>
           </Link>
-        </GridItem>
-        <SectionExamples />
-        <SectionDownload />
-      </div> */}
-      {<Footer />}
+        </GridItem> */}
+        {/* <SectionExamples />
+        <SectionDownload /> */}
+      </div>
+      {/* {<Footer />} */}
     </div>
   );
 }

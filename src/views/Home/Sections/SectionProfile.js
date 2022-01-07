@@ -18,6 +18,7 @@ import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
 // import Parallax from "components/Parallax/Parallax.js";
 
+// import profile from "assets/img/faces/profile.jpeg";
 import profile from "assets/img/faces/profile.jpeg";
 
 // import studio1 from "assets/img/examples/studio-1.jpg";
@@ -105,7 +106,7 @@ export default function SectionProfile() {
                       <div className={classes.contact}>
                         <p style={{ color: "black", fontSize: "16px" }}>
                           <ul>
-                            <li>Email : zerodeg93@gmail.com</li>
+                            <li>Email : jydbz42@gmail.com</li>
                             <li>Phone : 010-4337-6686</li>
                             <li>
                               GitHub :{" "}
@@ -139,61 +140,19 @@ export default function SectionProfile() {
 
             <div className={classes.description}>
               <p style={{ color: "black", fontSize: "16px" }}>
-                <b>OS를 넘나드는 앱 개발자가 되고 싶은 사람</b> - 2017년 앱 개발
-                인턴을 시작으로 그림이 움직이는 동화책 앱, 영어 단어 공부 앱
-                등을 개발하였으며, 2019년부터 2년간 안드로이드 앱 개발자로 일을
-                한 경험이 있습니다. 회사의 기획서를 바탕으로 앱 개발에 대한 모든
-                업무를 맡아 진행하였습니다. 앱의 주요 기능은 LTE 및 5G 신호
-                분석으로, 장비와 MQTT 통신을 이용하여 받은 데이터를 그래프로
-                출력해주는 기능이었습니다. python의 pyqt5 라이브러리를 이용하여
-                windows, linux에서 구동 가능한 앱을 개발하기도 했습니다.{" "}
+                2017년 앱 개발 인턴을 시작으로 그림이 움직이는 동화책 앱, 영어
+                단어 공부 앱 등을 개발하였으며, 2019년부터 2년간 안드로이드 앱
+                개발자로 일을 한 경험이 있습니다. 회사의 기획서를 바탕으로 앱
+                개발에 대한 모든 업무를 맡아 진행하였습니다. 앱의 주요 기능은
+                LTE 및 5G 신호 분석으로, 장비와 MQTT 통신을 이용하여 받은
+                데이터를 그래프로 출력해주는 기능이었습니다. python의 pyqt5
+                라이브러리를 이용하여 windows, linux에서 구동 가능한 앱을
+                개발하기도 했습니다.{" "}
               </p>
             </div>
 
             <div className={classes.description}>
-              <b>자격증</b>
-            </div>
-            <div className={classes.contactContainer}>
-              <div className={classes.contact}>
-                <p style={{ color: "black", fontSize: "16px" }}>
-                  <ul>
-                    <li>정보처리기사</li>
-                    <li>리눅스 마스터 2급</li>
-                  </ul>{" "}
-                </p>
-              </div>
-            </div>
-
-            <div className={classes.description}>
-              <b>학적</b>
-            </div>
-            <div className={classes.contactContainer}>
-              <div className={classes.contact}>
-                <p style={{ color: "black", fontSize: "16px" }}>
-                  <ul>
-                    <li>용인대 컴퓨터과학과 졸업</li>
-                    <li>졸업 학점 : 4.08</li>
-                  </ul>{" "}
-                </p>
-              </div>
-            </div>
-
-            <div className={classes.description}>
-              <b>상벌사항</b>
-            </div>
-            <div className={classes.contactContainer}>
-              <div className={classes.contact}>
-                <p style={{ color: "black", fontSize: "16px" }}>
-                  <ul>
-                    <li>2013년 2학기 성적 우수 장학금(학년 1등) 수여</li>
-                    <li>2016년 2학기 성적 우수 장학금(학년 2등) 수여</li>
-                    <li>2017년 1학기 학과 수석 장학금(학과 1등) 수여</li>
-                  </ul>{" "}
-                </p>
-              </div>
-            </div>
-            <div className={classes.description}>
-              <b>MY PROJECTS</b>
+              <b>Summary</b>
             </div>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={10} className={classes.navWrapper}>
@@ -321,6 +280,35 @@ export default function SectionProfile() {
                 />
               </GridItem>
             </GridContainer>
+
+            {/* <div className={classes.description}>
+              <b>자격증</b>
+            </div>
+            <div className={classes.contactContainer}>
+              <div className={classes.contact}>
+                <p style={{ color: "black", fontSize: "16px" }}>
+                  <ul>
+                    <li>정보처리기사</li>
+                    <li>리눅스 마스터 2급</li>
+                  </ul>{" "}
+                </p>
+              </div>
+            </div> */}
+
+            {/* <div className={classes.description}>
+              <b>상벌사항</b>
+            </div>
+            <div className={classes.contactContainer}>
+              <div className={classes.contact}>
+                <p style={{ color: "black", fontSize: "16px" }}>
+                  <ul>
+                    <li>2013년 2학기 성적 우수 장학금(학년 1등) 수여</li>
+                    <li>2016년 2학기 성적 우수 장학금(학년 2등) 수여</li>
+                    <li>2017년 1학기 학과 수석 장학금(학과 1등) 수여</li>
+                  </ul>{" "}
+                </p>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
